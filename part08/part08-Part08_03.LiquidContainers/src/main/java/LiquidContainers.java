@@ -55,6 +55,9 @@ public class LiquidContainers {
                 if (secondContainer < 0) {
                     secondContainer = 0;
                 }
+            
+            } else {
+                continue;
             }
         }
     }
