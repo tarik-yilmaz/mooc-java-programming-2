@@ -39,6 +39,8 @@ public class LiquidContainers2 {
                     firstContainer.remove(amount);
                     secondContainer.add(amount);
                 }
+            } else {
+                continue;
             }
         }
     }
