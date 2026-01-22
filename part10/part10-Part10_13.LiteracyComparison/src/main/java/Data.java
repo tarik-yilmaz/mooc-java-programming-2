@@ -1,11 +1,11 @@
 public class Data implements Comparable<Data> {
     
-    String name;
-    String population;
-    String gender;
-    String country;
-    int year;
-    double literacy;
+    private String name;
+    private String population;
+    private String gender;
+    private String country;
+    private int year;
+    private double literacy;
 
     public Data(String name, String population, String gender, String country, int year, double literacy)  {
         this.name = name;
@@ -16,9 +16,13 @@ public class Data implements Comparable<Data> {
         this.literacy = literacy;
     }
 
+    public double getLiteracy() {
+        return this.literacy;
+    }
+    
     @Override
     public int compareTo(Data other) {
-        return Double.compare(this.literacy, other.literacy);
+        return Double.compare(this.literacy, other.getLiteracy());
     }
 
     @Override
