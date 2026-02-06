@@ -46,6 +46,17 @@
             <version>8u76-b04</version>
             <scope>test</scope>
         </dependency>
+    <!-- We need to add both dependencies to work with AudioClip class -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>11</version>
+        </dependency>
     </dependencies>
    
     <build>
