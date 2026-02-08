@@ -1,23 +1,3 @@
-TestMyCode
-TMC
-Organization MOOC
-Course mooc-java-programming-ii
-Exercise part14-Part14_02.FinnishParties
-Submission #30280543
-Submission 30280543
-All tests successful
-
-Got 1 out of 1 point (14-02).
-Submitted at 16:42 06.02.2026
-Took 23 seconds to process.
-Download as zip
-View suggested solution
-Test Results
-Stdout
-Stderr
-Files
-
-src/main/java/application/PartiesApplication.java
 package application;
  
 import java.nio.file.Files;
