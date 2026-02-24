@@ -10,12 +10,12 @@ Questions are not written down, because I assume that the reader knows about the
  
 **Start date:** 2025/12/29
 
-**End date:**
+**End date:** 2026/02/08
 
 **Course link:**
 https://java-programming.mooc.fi/
 
-**Certification link:**
+**Certification link:** https://certificates.mooc.fi/validate/lt013y5zjfk
 
 
 **Note:** All solutions are my own - not a single use of AI/LLM.
